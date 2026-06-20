@@ -10,8 +10,8 @@ def save_accounts(accounts):
             file.write(
                 f"{acc.account_number},"
                 f"{acc.customer_name},"
-                f"{acc.mobile_number},"
-                f"{acc.account_type},"
+                f"{acc.mobile},"
+                f"{acc.acc_type},"
                 f"{acc.balance}\n"
             )
 
