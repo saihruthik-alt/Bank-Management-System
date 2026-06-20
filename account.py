@@ -4,7 +4,7 @@ class Account:
     def __init__(self, account_number, customer_name, mobile, acc_type, balance):
         self.account_number = account_number
         self.customer_name = customer_name
-        self.mobile = mobile_number
+        self.mobile = mobile
         self.acc_type = acc_type
         self.balance = balance
 
